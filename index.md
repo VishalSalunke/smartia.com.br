@@ -1,4 +1,6 @@
-\-\-\- layout: default \-\-\-
+\-\-\- 
+layout: default 
+\-\-\-
 
 Simule o valor do seguro do seu carro agora mesmo!
 ==================================================
