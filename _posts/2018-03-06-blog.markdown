@@ -1,0 +1,6 @@
+---
+title: Blog
+date: 2018-03-06 06:42:00 Z
+---
+
+hi this is my first post
