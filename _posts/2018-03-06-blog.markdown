@@ -1,6 +1,7 @@
 ---
-title: Blog
+layout: default
+title: first post
 date: 2018-03-06 07:52:00 Z
 ---
 
-hello
+This is my first post
