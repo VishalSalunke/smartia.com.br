@@ -1,8 +1,7 @@
 ---
-title: Blog
-date: 2018-03-06 06:42:00 Z
-permalink: blog
+title: first post
+date: 2018-03-06 07:52:00 Z
 layout: default
 ---
 
-hi this is my first post
+This is my first post
