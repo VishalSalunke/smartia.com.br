@@ -1,0 +1,257 @@
+/*
+    Theme Name: Smartia V3
+    Theme URI: //www.smartia.com.br/
+    Description: Smartia Blog Theme
+    Author: Smartia
+    Author URI: //www.smartia.com.br
+    Version: 3.0
+    Tags: smartia
+*/
+
+.body-content {
+	background-color: #F5F5F5;
+}
+
+.container {
+	padding:0;
+}
+
+.corpo {
+	margin-top: 35px;
+}
+
+.col_1 {
+	width: 245px;
+	float: right;
+}
+
+.col_2 {
+	width: 710px;
+	float: left;
+	margin-bottom: 40px;
+}
+
+.compre-pelo-telefone {
+	background-color: white;
+}
+
+.post {
+	background-color:#fff;
+	border-bottom: 1px solid #dadbdc;
+	padding-top:35px;
+	margin-bottom:35px;
+	padding-right:31px;
+}
+
+h1.entry-title, h2.entry-title {
+	margin-left:80px;
+	margin-top:0;
+	font-weight:bold;
+	font-size:30px;
+	/*font-family:"alwyn-new-web-n5","alwyn-new-web","Helvetica Neue",Helvetica,Arial,sans-serif;*/
+	font-family:"Arial";
+	margin-bottom:37px;
+}
+
+h2.entry-title a {
+	color: #8f8d87;
+}
+.entry-meta{
+	width:62px;
+	float:left;
+	margin-left:-2px;
+}
+.outer-date {
+	height:76px;
+	border-left:2px solid #f6b332;
+}
+
+
+.entry-date {
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:25px;
+	line-height:27px;
+	text-align:center;
+	padding-top:7px;
+	height:70px;
+	background-color: #f6b332;
+	color: #fff;
+	-webkit-box-shadow:  2px 2px 4px 2px rgba(0, 0, 0, .1);  
+	box-shadow:  2px 2px 4px 2px rgba(0, 0, 0, .1);
+	/*font-family:"alwyn-new-web-n5","alwyn-new-web","Helvetica Neue",Helvetica,Arial,sans-serif;*/
+	font-family:"Arial";
+}
+
+
+.entry-content {
+	margin-left:80px;
+	border-bottom:1px solid #000;
+	
+}
+
+.entry-content img {
+	    max-width: 100%;
+    height: auto;
+}
+.comments-link {
+	margin-top:3px;
+	padding-left:42px;
+	background: url("imagens/icone-comentarios-post.png") no-repeat  center top ;
+	font-size:11px;
+	height:40px;
+}
+.comments-link a {
+	color: #6f6666;
+}
+abbr.published {
+	border-bottom:none;
+}
+.entry-content p {
+	font-size:16px;
+	color: #000;
+	font-family:"Arial";
+}
+.form-search {
+	display:none;
+}
+.post-tags ul {
+ 
+	clear:both;
+	margin-left:80px;
+	padding:0;
+}
+
+.post-tags ul li {
+	float: left;
+	margin-bottom:10px;
+	list-style: none outside none;
+}
+ .post-tags ul li a{
+	background:#93c92b;
+	border-radius: 3px 3px 3px 3px;
+	margin:0 2px;
+	color:#fff;
+	font-size:12px;
+	font-weight:bold;
+	padding: 2px 5px;
+}
+
+.socialize {
+	float:none;
+	clear:both;
+	margin-bottom:30px;
+}
+
+h2.page-title {
+	margin-top:0;
+	/*font-family:"alwyn-new-web-n5","alwyn-new-web","Helvetica Neue",Helvetica,Arial,sans-serif;*/
+	font-family:"Arial";
+}
+#comment-notes {
+	font-size:12px;
+}
+.nav-previous, .nav-next {
+	background: #fff;
+	margin:5px 0;
+	padding:5px;
+}
+.nav-next {
+	text-align:right;
+}
+.required {
+	color:#f00;
+}
+.text {color:#666;}
+
+input, textarea {
+	border: 1px solid #eee;
+	background: #fff;
+	padding: 10px 20px;
+	border-bottom:2px solid #eee;
+
+}
+
+#submit {
+	background:#93c92b;
+	border-radius: 3px 3px 3px 3px;
+	color:#fff;
+	font-size:18px;
+	font-weight:bold;
+	margin-top: 10px;
+	padding: 5px 20px;
+	color:#fff;
+}
+
+.btn_simular {
+	background:#93c92b;
+	border-radius: 3px 3px 3px 3px;
+	color:#fff;
+	font-size:18px;
+	font-weight:bold;
+	margin-top: 10px;
+	padding: 5px 20px;
+	color:#fff;
+}
+.btn_simular a {color:#fff;}
+
+.content .col_1 > div > ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.socialbar {
+
+}
+.socialbar * {
+}
+.comments ul {
+	text-align: left;
+}
+
+.comments ul {
+	margin:10px 0;
+}
+
+table {
+	width:auto;
+}
+@media (max-width: 768px) {
+	html {
+		margin-top:0 !important;
+	}
+	.body-content {
+    margin-top: -43px;
+}
+	.col_1 {
+		display: none;
+		
+	}
+	.col_2{
+		width: auto !important;
+    float: none !important;
+	}
+	.col_2 img {
+		max-width:100% !important;
+		height: auto;
+	}
+	textarea {
+	max-width:100% !important;
+	}
+	.entry-title {
+		margin-left:20px !important;
+	}
+	.entry-content {
+		margin-left:20px;
+	}
+	.entry-meta {
+		display: none;
+	}
+}
+
+@media (max-width: 1024px) {
+	.col_1 {
+		display: none;
+		}
+	
+}
