@@ -19,5 +19,5 @@ theme: minima
 plugins:
 - jekyll-feed
 _editor:
-  default_path: /index/
+  default_path: /
 
