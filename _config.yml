@@ -21,4 +21,4 @@ theme: minima
 plugins:
 - jekyll-feed
 _editor:
-  default_path: /about/
+  default_path: "/about/"
