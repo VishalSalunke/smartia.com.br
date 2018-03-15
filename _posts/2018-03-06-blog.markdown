@@ -1,7 +1,0 @@
----
-title: first post
-date: 2018-03-06 07:52:00 Z
-layout: default
----
-
-This is my first post
