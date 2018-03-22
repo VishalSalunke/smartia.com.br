@@ -2,6 +2,11 @@
 title: smatia.com.br
 timezone: UTC
 collections:
+  blog2:
+    title: Posts
+    output: true
+    Author:
+      Name: 
   posts:
     title: Posts
     output: true
