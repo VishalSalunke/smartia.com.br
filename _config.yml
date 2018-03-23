@@ -29,12 +29,10 @@ plugins:
 - jekyll-feed
 _editor:
   default_path: "/"
-
   defaults:
-  -
-    scope:
-      path: ""
-      type: "pages"
+  - scope:
+      path: ''
+      type: pages
     values:
-      titulo-h1: ""
-      titulo-h2: ""
+      titulo-h1: ''
+      titulo-h2: ''
