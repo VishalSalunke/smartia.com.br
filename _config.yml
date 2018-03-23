@@ -34,7 +34,7 @@ _editor:
   - 
   scope:
       path: ''
-      type: pages
+      type: "pages"
     values:
 
       titulo-h1: "Hello everyone... how you doing?"
