@@ -19,7 +19,7 @@ collections:
     Name: Vishal
 defaults:
 - scope:
-    path: ''
+    path: 'seguro-auto\simulacao-preco\veiculo'
     type: pages
   values:
     titulo-h1: ''
