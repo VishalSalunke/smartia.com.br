@@ -17,6 +17,13 @@ collections:
     title: test
     output: false
     Name: Vishal
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    titulo-h1: default132
+    titulo-h2: Ethan132
 email: your-email@example.com
 description: Write
 baseurl: 
@@ -27,14 +34,3 @@ markdown: kramdown
 theme: minima
 plugins:
 - jekyll-feed
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      titulo-h1: "default132"
-      titulo-h2: "Ethan132"
-
-
