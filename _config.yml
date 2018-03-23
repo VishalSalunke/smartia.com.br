@@ -28,14 +28,13 @@ theme: minima
 plugins:
 - jekyll-feed
 
-
-  defaults:
-  - 
-  scope:
-      path: ''
-      type: "pages"
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
     values:
+      titulo-h1: "default132"
+      titulo-h2: "Ethan132"
 
-      titulo-h1: "Hello everyone... how you doing?"
-      titulo-h2: "this is header 2"
 
