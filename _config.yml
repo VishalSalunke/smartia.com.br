@@ -36,5 +36,5 @@ _editor:
       path: ""
       type: "pages"
     values:
-      titulo-h1: ""
-      titulo-h2: ""
+      titulo-h1: "Hello everyone... how you doing?"
+      titulo-h2: "this is header 2"
