@@ -1,7 +1,12 @@
 ---
-title: Smartia.Com.Br
+title: smatia.com.br
 timezone: UTC
 collections:
+  blog2:
+    title: Posts
+    output: true
+    Author:
+      Name: 
   posts:
     title: Posts
     output: true
@@ -9,6 +14,30 @@ collections:
     title: Uploads
     output: true
 name: My Jekyll Website
+
+
+  test:
+    title: test
+    output: false
+    Name: Vishal
+defaults:
+- scope:
+    path: ''
+    type: pages
+  values:
+    titulo-h1: ''
+    titulo-h2: ''
+email: your-email@example.com
+description: Write
+baseurl: 
+url: 
+twitter_username: jekyllrb
+github_username: jekyll
+markdown: kramdown
+theme: minima
+plugins:
+- jekyll-feed
+- jekyll-sitemap
 
 # Staticman
 staticman:
