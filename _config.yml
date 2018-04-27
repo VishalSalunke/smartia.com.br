@@ -9,3 +9,14 @@ collections:
     title: Uploads
     output: true
 name: My Jekyll Website
+
+# Staticman
+staticman:
+ allowedFields: ['name', 'email', 'comment']
+ branch: master
+ commitMessage: "New comment added"
+ filename: "entry{@timestamp}"
+ format: yml
+ moderation: true
+ path: "_data/reviews"
+ requiredFields: ['name', 'email', 'comment']
