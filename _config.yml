@@ -15,11 +15,6 @@ collections:
     output: true
 name: My Jekyll Website
 
-
-  test:
-    title: test
-    output: false
-    Name: Vishal
 defaults:
 - scope:
     path: ''
