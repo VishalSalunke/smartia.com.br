@@ -1,0 +1,24 @@
+<div class="comments">
+	{% assign reviews = site.data.reviews | sort %}
+	
+	{% for review in reviews reversed %}
+		{% assign reviewData = review[1] %}
+
+
+
+	<div class="comment-wrap">
+				<div class="photo">
+						<div class="avatar" style="background-image: url('http://localhost:4000/resources/images/avtar.jpg')"></div>
+				</div>
+				<div class="comment-block">
+						<p class="comment-text">{{ reviewData.comment }}</p>
+						<div class="bottom-comment">
+								<div class="comment-name">- {{ reviewData.name }}</div>
+							
+						</div>
+				</div>
+		</div>
+
+
+	{% endfor %}
+</div>
