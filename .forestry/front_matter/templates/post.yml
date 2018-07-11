@@ -15,3 +15,5 @@ fields:
     - home
   label: Layout
   name: layout
+pages:
+- _posts/vishal.md
